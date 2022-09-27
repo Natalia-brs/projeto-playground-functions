@@ -10,13 +10,13 @@ function compareTrue(primeiro, segundo) {
 // Desafio 2
 function calcArea(base, height) {
     let calc = (base * height) / 2;
-  return calc
+  return calc;
 }
 
 
 // Desafio 3
 function splitSentence(string) {
-  let sentence = string.split(' ')
+  let sentence = string.split(' ');
   return sentence;
 }
 
@@ -24,9 +24,9 @@ function splitSentence(string) {
 // Desafio 4
 function concatName(array) {
   let recebe = '';
-  let first = array[0]
-  let last = array [array.length -1]
-  recebe = last  + ',' + ' ' +  first
+  let first = array[0];
+  let last = array [array.length -1];
+  recebe = last  + ',' + ' ' +  first;
   return recebe;
 }
 
@@ -41,9 +41,17 @@ function footballPoints(wins, ties) {
 
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(arrayRepete) {
+  let repeatNumber = Math.max.apply (null, arrayRepete);
+  let count =0;
+  for (let index = 0; index < arrayRepete.length; index += 1) {
+    if (arrayRepete[index] === repeatNumber);
+        count+= 1;
+  };
+ return count;
+
 }
+
 
 // Desafio 7
 function catAndMouse() {
