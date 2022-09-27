@@ -12,19 +12,25 @@ function calcArea(base, height) {
     let calc = (base * height) / 2;
   return calc
 }
-console.log (calcArea(10,50))
+
 
 // Desafio 3
 function splitSentence(string) {
   let sentence = string.split(' ')
   return sentence;
 }
-console.log (splitSentence('go Trybe'))
+
 
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(array) {
+  let recebe = '';
+  let first = array[0]
+  let last = array [array.length -1]
+  recebe = last  + ',' + ' ' +  first
+  return recebe;
 }
+console.log (concatName (['Lucas', 'Cassiano', 'Ferraz', 'Paolillo']))
+
 
 // Desafio 5
 function footballPoints() {
