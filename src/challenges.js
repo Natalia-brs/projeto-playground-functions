@@ -45,17 +45,17 @@ function highestCount(arrayRepete) {
   let repeatNumber = Math.max.apply (null, arrayRepete);
   let count =0;
   for (let index = 0; index < arrayRepete.length; index += 1) {
-    if (arrayRepete[index] === repeatNumber);
+    if (arrayRepete[index] === repeatNumber) {
         count+= 1;
   };
- return count;
-
+  }
+  return count;
 }
 
 
 // Desafio 7
-function catAndMouse() {
-  // seu código aqui
+function catAndMouse(mouse, cat1, cat2) {
+  
 }
 
 // Desafio 8
