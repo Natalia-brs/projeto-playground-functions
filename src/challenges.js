@@ -29,7 +29,7 @@ function concatName(array) {
   recebe = last  + ',' + ' ' +  first
   return recebe;
 }
-console.log (concatName (['Lucas', 'Cassiano', 'Ferraz', 'Paolillo']))
+
 
 
 // Desafio 5
