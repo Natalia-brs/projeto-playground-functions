@@ -92,28 +92,44 @@ console.log (fizzBuzz([2, 15, 7, 9, 45]))
 
 // Desafio 9
 function encode(string) {
-  string = string.replace(/['a']/g, '1')
-  string = string.replace(/['e']/g, '2')
-  string = string.replace(/['i']/g, '3')
-  string = string.replace(/['o']/g, '4')
-  string = string.replace(/['u']/g, '5')
- return string
+  string = string.replace(/['a']/g, '1');
+  string = string.replace(/['e']/g, '2');
+  string = string.replace(/['i']/g, '3');
+  string = string.replace(/['o']/g, '4');
+  string = string.replace(/['u']/g, '5');
+ return string;
 }
 console.log (encode('go trybe'))
 
 function decode(string2) {
-  string2 = string2.replace(/['1']/g, 'a')
-  string2 = string2.replace(/['2']/g, 'e')
-  string2 = string2.replace(/['3']/g, 'i')
-  string2 = string2.replace(/['4']/g, 'o')
-  string2 = string2.replace(/['5']/g, 'u')
-  return string2
+  string2 = string2.replace(/['1']/g, 'a');
+  string2 = string2.replace(/['2']/g, 'e');
+  string2 = string2.replace(/['3']/g, 'i');
+  string2 = string2.replace(/['4']/g, 'o');
+  string2 = string2.replace(/['5']/g, 'u');
+  return string2;
 }
 
 // Desafio 10
-function techList() {
-  // seu código aqui
+function techList(tecnology, string) {
+  if (tecnology.length === 0) {
+    return 'Vazio!'
+  }
+
+  let responseArray = [];
+  tecnology.sort ();
+  for (let index in tecnology) {
+    responseArray.push({ tech: tecnology[index], name: string})
+  }
+
+return responseArray;
+
 }
+
+
+
+
+
 
 module.exports = {
   calcArea,
