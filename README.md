@@ -1,5 +1,10 @@
 # Boas-vindas ao repositório do Projeto Playground Functions realizado na Trybe durante o modulo de Fundamentos! 
 
+
+# Playground Functions
+Projeto javascript, que teve como objetivo resolver desafios de lógica.
+
+
 # Requisitos Obrigatórios
 
 <ol>
@@ -23,3 +28,16 @@
 <li>Habilite o botão "Enviar" após a validação do `checkbox`</li>
 <li>19. Crie um rodapé ao final da página</li>
 </ol>
+
+# Playground Praticadas
+
+- Escrever códigos em JavaScript que usam variáveis e tipos primitivos;
+- Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
+- Criar códigos que usam estruturas condicionais, como o if/else .
+- Manipular arrays (listas);
+- Utilizar o comando for ;
+- Quebrar grandes problemas em pequenos;
+- Utilizar a lógica de programação na resolução de problemas.
+- Manipular objetos;
+- Utilizar o comando for/in ;
+- Utilizar funções para organizar e estruturar o seu código;
